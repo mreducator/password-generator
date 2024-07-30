@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    
+}
+#parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#child{
+    border:1px solid white;
+    width:30vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:white;
+    font-size: 23px;
+}
+#inpt{
+    width:20vw;
+    height:5vh;
+    background-color: white;
+}
+#psswrd-length{
+    /*border: 1px solid yellow;*/
+    width:20vw;
+    display: flex;
+    justify-content: space-between;
+}
+#password-text{
+    color:white;
+}
+#password-box{
+    width:40px;
+    height:25px;
+    margin-top: 15px;
+}
+#upper-case{
+     /*border: 1px solid yellow;*/
+     width:20vw;
+     display: flex;
+     justify-content: space-between;
+}
+#upper-text{
+    color:white;
+}
+#uppercase-box{
+    height:25px;
+    width:20px;
+    margin-top: 15px;
+}
+
+#lower-case{
+   /* border: 1px solid yellow;*/
+    width:20vw;
+    display: flex;
+    justify-content: space-between;
+}
+#lower-text{
+    color:white; 
+}
+#lowercase-box{
+    height:25px;
+    width:20px;
+    margin-top: 15px;
+}
+
+#numbers{
+    /*border: 1px solid yellow;*/
+    width:20vw;
+    display: flex;
+    justify-content: space-between;
+}
+#number{
+    color:white;
+}
+#number-box{
+    height:25px;
+    width:20px;
+    margin-top: 15px;
+}
+
+#password-generate{
+width:20vw;
+display: flex;
+justify-content: center;
+background-color: blue;
+margin-top: 20px;
+}
+#btn{
+    color:white;
+    font-weight: bold;
+}
